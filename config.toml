@@ -1,0 +1,49 @@
+# The URL the site will be built for
+base_url = "https://zola-lnbits-nl.pages.dev"
+theme = "hermit_zola"
+
+title = "QA-lity"
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+# Put all your custom variables here
+theme = "hermit_zola"
+home_subtitle = "Helping companies and their software development teams to build quality in by implementing continuous quality strategies."
+phone = "085 004 1728 "
+email = "info@qa-lity.nl"
+
+hermit_menu = [
+
+]
+
+hermit_social = [
+    { name = "www", link = "https://lnbits.com/" },
+    { name = "github", link = "https://github.com/lnbits/lnbits" },
+    { name = "twitter_x", link = "https://x.com/lnbits" },
+    { name = "youtube", link = "https://www.youtube.com/@lnbits9178" }
+]
+
+
+
+[extra.highlightjs]
+enable = true
+clipboard = true
+theme = "vs2015"
+
+[extra.disqus]
+enable = false
+# Take this from your Disqus account
+shortname = "my-supa-dupa-blog"
+
+[extra.author]
+name = "Lightning Checkout"
+link = "https://lightningcheckout.eu"
