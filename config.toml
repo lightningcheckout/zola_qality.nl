@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://zola-lnbits-nl.pages.dev"
+base_url = "https://zola-qality-nl.pages.dev"
 theme = "hermit_zola"
 
 title = "QA-lity"
@@ -26,10 +26,6 @@ hermit_menu = [
 ]
 
 hermit_social = [
-    { name = "www", link = "https://lnbits.com/" },
-    { name = "github", link = "https://github.com/lnbits/lnbits" },
-    { name = "twitter_x", link = "https://x.com/lnbits" },
-    { name = "youtube", link = "https://www.youtube.com/@lnbits9178" }
 ]
 
 
@@ -42,7 +38,7 @@ theme = "vs2015"
 [extra.disqus]
 enable = false
 # Take this from your Disqus account
-shortname = "my-supa-dupa-blog"
+shortname = ""
 
 [extra.author]
 name = "Lightning Checkout"
